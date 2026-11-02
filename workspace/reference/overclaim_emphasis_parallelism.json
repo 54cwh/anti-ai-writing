@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "search_time": "2026-10-27",
+    "topic": "排比式强调、程度词滥用、学术判断过强（overclaiming）",
+    "scope": "学术夸大实证研究、「研究空白」话语批评、因果表述强度量表、中文排比语料",
+    "data_sources_summary": "Sumner et al. 2014 BMJ（夸大传播链实证）、Thomson 2021 LSE Impact（gap talk 批评，含 Swales CARS）、BMJ 论文中的七级确定性量表、CCL 2025 中文排比句语料库论文。"
+  },
+  "items": [
+    {
+      "id": "S4-001",
+      "claim": "学术夸大可从论文→新闻稿→新闻层层放大，且强度可量化。",
+      "detail": "对 2011 年英国 20 所高校的 462 篇新闻稿、对应论文与 668 篇新闻做回溯内容分析。40% 新闻稿含夸大建议，33% 含夸大因果陈述，36% 含从动物推断到人的夸大。新闻稿夸大时，新闻随之夸大的比例分别为 58%/81%/86%；新闻稿未夸大时仅 17%/18%/10%。OR 分别为 6.5/20/56。",
+      "category": "过度断言",
+      "evidence_type": "实证研究",
+      "source_title": "The association between exaggeration in health related science news and academic press releases",
+      "source_author": "Petroc Sumner et al.",
+      "source_year": 2014,
+      "source_url": "https://www.bmj.com/content/349/bmj.g7015",
+      "doi": "10.1136/bmj.g7015",
+      "quote": "40% (95% confidence interval 33% to 46%) of the press releases contained exaggerated advice, 33% (26% to 40%) contained exaggerated causal claims, and 36% (28% to 46%) contained exaggerated inference to humans from animal research.",
+      "applicability": "提供「夸大」的可操作定义与基线比例；说明夸大不是 AI 独有，学术界本身就有。",
+      "confidence": "high",
+      "notes": "观察性研究，作者自陈不能证明因果；领域限于生物医学。"
+    },
+    {
+      "id": "S4-002",
+      "claim": "论文内部可用七级量表把「相关性」到「无条件因果」逐级标定，这是程度词判据的现成模板。",
+      "detail": "量表：无陈述 → 明确无关系 → 相关性（A 与 B 相关）→ 模糊关联（A 与 B 有关联）→ 条件因果（A 可能增加 B 风险）→ 能导致（A 能增加 B 风险）→ 无条件因果（A 增加 B 风险）。编码时以最强陈述为准。",
+      "category": "程度词/证据等级",
+      "evidence_type": "实证研究方法",
+      "source_title": "同上（BMJ 2014 方法部分）",
+      "source_author": "Petroc Sumner et al.",
+      "source_year": 2014,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4262123/",
+      "doi": "10.1136/bmj.g7015",
+      "quote": "We used a seven point scale to rate increasing levels of determinism ... correlational ... ambiguous ... conditional causal ... can cause ... and unconditionally causal.",
+      "applicability": "可直接迁移为中文程度词量表：相关 / 有关联 / 可能 / 能够 / 会。W05 的核心交付物可以就是这个量表的中文化版本。",
+      "confidence": "high",
+      "notes": "量表针对因果表述，不覆盖价值判断（如「意义重大」）。"
+    },
+    {
+      "id": "S4-003",
+      "claim": "「填补研究空白」是 genre 研究的既有套路（CARS），但长期受到系统性批评。",
+      "detail": "CARS（Create a Research Space，Swales）三步骤：建立语境 → 指出缺失 → 说明如何填补。批评包括：(1) 「gap」夸大了现实，多数领域是拥挤空间，找到的是 niche 不是 crevasse；(2) CARS 是知识累加模型，不适用于所有研究传统；(3) 保守，不质疑既有知识框架；(4) 没人做可能因为问题不重要——「未被研究」本身不是理由。连 Swales 本人也对 gap 概念表示不安。",
+      "category": "研究空白断言",
+      "evidence_type": "社论观点",
+      "source_title": "The problem with the 'gap in the literature'",
+      "source_author": "Pat Thomson（LSE Impact Blog）",
+      "source_year": 2021,
+      "source_url": "https://blogs.lse.ac.uk/impactofsocialsciences/2021/07/16/the-problem-with-the-gap-in-the-literature/",
+      "doi": null,
+      "quote": "\"Gap\" overstates the reality of most disciplines. ... some genre researchers (including John Swales who is credited with the original CARS formulation) are uncomfortable with the notion of a gap, arguing that what people usually find is a tiny niche not a yawning crevasse.",
+      "applicability": "W05/X09 的直接依据：判断「填补空白」是否过度，要问三件事——是否真的检索穷尽？缺口是否重要？一个项目能否填补？",
+      "confidence": "high",
+      "notes": "博客社论，但引用了 genre 研究文献；Swales 1990 原文未核。"
+    },
+    {
+      "id": "S4-004",
+      "claim": "「填补空白」不能替代贡献陈述，评审需要知道「现在知道了什么」。",
+      "detail": "写作指南建议：说明了「之前缺什么」不等于说明「本研究增加了什么」；应具体到知识、证据、解释、方法能力或实践洞见。",
+      "category": "研究空白断言",
+      "evidence_type": "写作指南",
+      "source_title": "How Specific Should a Research Contribution Claim Be?",
+      "source_author": "Manuel Garcia",
+      "source_year": 2024,
+      "source_url": "https://manuelgarcia.info/guides/research/guide/how-specific-research-contribution-claim",
+      "doi": null,
+      "quote": "\"Fills a gap\" tells the reader that something was previously missing, but not what the research has added. State what is now known, understood, possible, or practically actionable because the study addressed that gap.",
+      "applicability": "可转成改写规则：把「填补了 X 空白」改写为「本文表明/估计/证明……」。",
+      "confidence": "medium",
+      "notes": "个人写作指南，非同行评议。"
+    },
+    {
+      "id": "S4-005",
+      "claim": "中文排比句已有带多维标注的语料库，可用于区分「有效排比」与「填充排比」。",
+      "detail": "CPDAK 语料库标注主题、情感基调、排比标志词、关键词四个维度。论文定义排比项需保持主题一致性，并示例「奋斗让我们在困境中成长；奋斗让我们在挑战中突破；奋斗让我们在坚持中成功」为主题+基调+关键词序列。",
+      "category": "排比",
+      "evidence_type": "实证研究（语料库）",
+      "source_title": "中文排比句语料库构建与 K-CoT 生成框架（CCL 2025）",
+      "source_author": "（CCL 2025 论文，作者待核）",
+      "source_year": 2025,
+      "source_url": "https://aclanthology.org/2025.ccl-1.27.pdf",
+      "doi": null,
+      "quote": "从概念维度出发我们标注了排比句的主题，它是排比句的核心论述对象，各排比项需要保持主题的一致性。",
+      "applicability": "给出「排比是否有效」的第一个可操作判据：各项是否服务同一主题、是否推进而非重复。可用于 W04。",
+      "confidence": "medium",
+      "notes": "语料来自散文/小说/议论文/学生作文，不是学术论文；生成任务导向，非质量评价导向。"
+    },
+    {
+      "id": "S4-006",
+      "claim": "中文对照语料显示，句内同构排比在人类文本中反而更常见（R=0.61），排比不是可靠的 AI 标志。",
+      "detail": "生成 2.35 vs 人类 3.87（每百句）。另：正文设问人类是生成侧的 17 倍；比喻 2.4 倍。",
+      "category": "排比（反证）",
+      "evidence_type": "语料观察（未同行评议）",
+      "source_title": "lieflat-less-ai-tone",
+      "source_author": "larashero3-dotcom",
+      "source_year": 2026,
+      "source_url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+      "doi": null,
+      "quote": "句内同构排比 | 同字起首两项 生成 2.35 / 人类 3.87 | 0.61",
+      "applicability": "直接冲突于会议假设。若复现成立，「排比式强调」就不能作为 AI 判据，只能作为「该处修辞是否服务论证」的独立质量问题。",
+      "confidence": "low",
+      "notes": "未同行评议，必须复现。"
+    },
+    {
+      "id": "S4-007",
+      "claim": "「研究较少」不等于「更有价值」，这是 gap talk 最常被批评的推理跳跃。",
+      "detail": "批评者指出：没人做过可能是因为不重要、不有趣；至少需要在「指出缺失」之外补充「为什么这个缺失重要」。",
+      "category": "研究空白断言",
+      "evidence_type": "社论观点",
+      "source_title": "Literature Reviews Beyond the Gap",
+      "source_author": "Jenn McClearen",
+      "source_year": 2023,
+      "source_url": "https://www.publishnotperish.net/p/literature-reviews-beyond-the-gap",
+      "doi": null,
+      "quote": "There's a gap, and that's why I'm doing this study. ... Are all the gaps inherently worth filling just for the sake of filling them?",
+      "applicability": "X09「价值判断 vs 空白判断」分离的直接依据。",
+      "confidence": "medium",
+      "notes": "个人博客，观点性。"
+    }
+  ],
+  "gaps": [
+    "未找到「红海/蓝海」「政策工具箱」在学术文本中的使用规范或批评文献，无法判断其是否为成熟术语。",
+    "未找到中文「填补空白」使用频率的语料统计（是否真的在增加）。",
+    "未找到「程度词 → 证据等级」的中文对应量表，需自行构建。",
+    "排比的「有效 vs 填充」缺少可操作的负面判据（现有语料库只标注正面特征）。"
+  ],
+  "implications": [
+    "W05 的核心应是一张「表述强度 ↔ 证据要求」对照表，而不是禁用词表。可直接以 BMJ 七级量表为骨架做中文版。",
+    "「填补空白」的检查应拆成三问：检索是否穷尽、缺口是否重要、单项目能否填补。",
+    "W04 需先承认排比在人类文本中可能更常见（S4-006），否则规则会误伤。"
+  ]
+}

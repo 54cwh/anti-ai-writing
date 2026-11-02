@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "search_time": "2026-10-27",
+    "topic": "元叙述（metadiscourse）、防御性写作、hedging 与作者显身",
+    "scope": "metadiscourse 理论（Hyland）、stance & engagement 模型、系统性综述",
+    "data_sources_summary": "Hyland 2005 专著与 2005 Discourse Studies 论文、Hyland & Tse 2004 三原则、2023 年 metadiscourse 学术写作系统性综述。未检索到「防御性写作」的既有学术术语。"
+  },
+  "items": [
+    {
+      "id": "S3-001",
+      "claim": "metadiscourse 是「关于文本自身的语言」，功能是协商作者—读者关系，不是可有可无的装饰。",
+      "detail": "定义：用于协商互动意义的自反性表达，帮助作者表达立场并与特定共同体读者互动。Hyland 把它分为 interactive（引导读者理解文本：过渡语、框架标记、内指标记、证源标记、注释）与 interactional（涉及读者：hedges、boosters、态度标记、自我提及、介入标记）。",
+      "category": "理论框架",
+      "evidence_type": "理论框架",
+      "source_title": "Metadiscourse: Exploring Interaction in Writing",
+      "source_author": "Ken Hyland",
+      "source_year": 2005,
+      "source_url": "https://www.bloomsbury.com/uk/metadiscourse-9780826476104/",
+      "doi": null,
+      "quote": "Metadiscourse is the cover term for the self-reflective expressions used to negotiate interactional meanings in a text, assisting the writer (or speaker) to express a viewpoint and engage with readers as members of a particular community.",
+      "applicability": "给「元叙述」一个可操作的上位框架。关键推论：元话语有合法功能，问题只出在「无功能的元话语」。",
+      "confidence": "high",
+      "notes": "ISBN 9780826476104；书内明确承认 metadiscourse 概念长期「under-theorized and empirically vague」，分类边界本身有争议。"
+    },
+    {
+      "id": "S3-002",
+      "claim": "判断元话语合法性的三条原则可用于筛掉「元叙述」。",
+      "detail": "(1) 元话语区别于命题内容；(2) 元话语体现作者—读者互动；(3) 元话语只指涉话语内部关系。",
+      "category": "判别标准",
+      "evidence_type": "理论框架",
+      "source_title": "Metadiscourse: Exploring Interaction in Writing, ch.3",
+      "source_author": "Ken Hyland（与 Polly Tse）",
+      "source_year": 2005,
+      "source_url": "https://ssu.elearning.unipd.it/pluginfile.php/435178/mod_resource/content/1/Hyland_2005_Metadiscourse.pdf",
+      "doi": null,
+      "quote": "1. that metadiscourse is distinct from prepositional aspects of discourse; 2. that metadiscourse refers to aspects of the text that embody writer—reader interactions; 3. that metadiscourse refers only to relations which are internal to the discourse.",
+      "applicability": "可用作 W08 的三问测试：这句话是否在讲命题？是否在服务读者理解？是否只涉及文本内部关系？三问皆否 = 元叙述。",
+      "confidence": "high",
+      "notes": "原文将「prepositional」写作 propositional 之误（PDF 转录），引用时宜用 propositional。"
+    },
+    {
+      "id": "S3-003",
+      "claim": "stance 与 engagement 的二分来自 240 篇、8 个学科的实证分析，是 metadiscourse 模型的经验基础。",
+      "detail": "基于 240 篇已发表研究论文与知情人访谈，提出分析主体间定位资源的框架，兼顾 stance（作者对材料的立场）与 engagement（预设读者角色）。",
+      "category": "理论框架",
+      "evidence_type": "实证研究",
+      "source_title": "Stance and engagement: a model of interaction in academic discourse",
+      "source_author": "Ken Hyland",
+      "source_year": 2005,
+      "source_url": "https://doi.org/10.1177/1461445605050365",
+      "doi": "10.1177/1461445605050365",
+      "quote": "Based on an analysis of 240 published research articles from eight disciplines and insider informant interviews, I attempt to address this gap ... to offer a framework for analysing the linguistic resources of intersubjective positioning.",
+      "applicability": "说明学术写作中的「作者在场」是常态，不是缺陷；问题在于「在场的方式」不对（评价自己的论证 vs 评价研究对象）。",
+      "confidence": "high",
+      "notes": "被引 2000+。"
+    },
+    {
+      "id": "S3-004",
+      "claim": "metadiscourse 研究本身存在「宽」「窄」两派，术语边界未统一，直接照搬分类会出问题。",
+      "detail": "宽派（integrative，Hyland）把文本组织与人际功能都算作 metadiscourse；窄派（non-integrative，Ädel、Mauranen 等）只把「关于正在进行的语篇的语篇」算作 metatext / discourse reflexivity，不包含作者的认识与情感态度。",
+      "category": "理论争议",
+      "evidence_type": "系统性综述",
+      "source_title": "Metadiscourse in academic writing: A systematic review",
+      "source_author": "（Journal of English for Academic Purposes，作者待核）",
+      "source_year": 2023,
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0024384123000852",
+      "doi": null,
+      "quote": "The 'narrow' or 'non-integrative' tradition ... bounds metatext or discourse reflexivity ... to the textual function within the confines of the text, or as Mauranen puts it, discourse about the on-going discourse.",
+      "applicability": "项目若要做「元叙述」检测规则，必须先声明采用宽派还是窄派，否则同一条句子会被判成两类。",
+      "confidence": "high",
+      "notes": "未取得全文，仅摘要与正文片段。"
+    },
+    {
+      "id": "S3-005",
+      "claim": "hedging 是学术写作的必要资源，过度与不足都构成问题；这为「防御性写作」提供了双侧判据。",
+      "detail": "Hyland 的 hedging 研究以科学论文为语料，指出 hedges 用于表达不确定性与谦逊，boosters 用于表达确信。学术说服要求二者平衡：全是 hedges 则显得无主张、防御；全是 boosters 则过度断言。",
+      "category": "hedging",
+      "evidence_type": "理论框架",
+      "source_title": "Hedging in Scientific Research Articles",
+      "source_author": "Ken Hyland",
+      "source_year": 1998,
+      "source_url": "https://benjamins.com/catalog/pbns.54",
+      "doi": null,
+      "quote": null,
+      "applicability": "把「防御性写作」操作化为「hedge 密度过高且缺少承担」。但注意：会议说的防御性写作更多指「暴露内部决策过程」，与 hedging 不完全同义，需分开。",
+      "confidence": "medium",
+      "notes": "本次未取得原文，仅依据二手转述与同作者 2005 模型推断；quote 留空，不臆造。"
+    },
+    {
+      "id": "S3-006",
+      "claim": "「防御性写作」不是既有学术术语，最接近的概念是「过程痕迹外露」与「过度自我解释」。",
+      "detail": "检索未发现 defensive writing 作为写作研究术语的稳定用法。相近概念：revision traces（修改痕迹）、authorial intrusion（作者侵入）、over-explanation。会议中的现象（「某部分已在某章说明」「我之所以选择这个方法是因为……」）更接近「编辑决策泄漏到成品文本」。",
+      "category": "术语核查",
+      "evidence_type": "未核实",
+      "source_title": "（检索结论，无单一来源）",
+      "source_author": null,
+      "source_year": null,
+      "source_url": null,
+      "doi": null,
+      "quote": null,
+      "applicability": "项目内可以继续用「防御性写作」作为工作术语，但对外发表时应标注为自拟术语，并给出操作性定义。",
+      "confidence": "medium",
+      "notes": "这是负面检索结果，不等于该概念不存在；可能存在于非英语文献或写作中心材料中。"
+    }
+  ],
+  "gaps": [
+    "未找到「元话语过多会损害可读性」的实证证据；现有研究多为描述性频率对比。",
+    "未找到 metadiscourse 使用频率与文本质量评分的相关性研究。",
+    "中文「元话语」研究（如中文期刊论文的元话语分析）本次未检索，需补。",
+    "「防御性写作」缺少既有定义，需要项目自行界定并与 hedging 区分。"
+  ],
+  "implications": [
+    "W08 应先定三问测试（命题？读者？文本内部？），再收集例句，否则「元叙述」会变成主观标签。",
+    "「元叙述」与「防御性写作」必须分开：前者是评价自己的论证，后者是暴露写作过程。二者可同时出现但不是同一问题。",
+    "「重复」不等于「元叙述」：重复是信息冗余，元叙述是层级错位，需分别建例。"
+  ]
+}

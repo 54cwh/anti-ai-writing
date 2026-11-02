@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "search_time": "2026-10-27",
+    "topic": "过度名词化（nominalization）与概念堆叠/压缩判断",
+    "scope": "英文写作教学批判、系统功能语言学、学术汉语语料研究、学术命名实践的长时段变化",
+    "data_sources_summary": "Helen Sword 的 zombie nouns（NYT/Writer's Diet，教学权威）、Orwell 经典对照、学术汉语名词化语法隐喻研究（IJCLT 2025）、学术英语命名实践 50 年语料研究（UEA）、中国硕士生名词词组研究。"
+  },
+  "items": [
+    {
+      "id": "S2-001",
+      "claim": "名词化的核心危害不是「用了名词」，而是删掉了施事与动作，使句子不回答「谁做了什么」。",
+      "detail": "Sword 用一个含 7 个名词化的句子示范：「The proliferation of nominalizations in a discursive formation may be an indication of a tendency toward pomposity and abstraction.」改写后加入人类主语与主动动词，句子恢复可读。她同时明确：名词化在最佳状态下能表达复杂概念（perception、intelligence、epistemology），最差时阻碍交流。",
+      "category": "过度名词化",
+      "evidence_type": "教学权威/风格指南",
+      "source_title": "The Zombie Noun Walk（转写）",
+      "source_author": "Helen Sword",
+      "source_year": 2024,
+      "source_url": "https://www.helensword.com/podcast-transcripts/the-zombie-noun-walk",
+      "doi": null,
+      "quote": "At their best, nominalizations help us express complex ideas, perception, intelligence, epistemology. At their worst, they impede clear communication. ... This sentence contains no fewer than seven nominalizations, yet it fails to tell us who is doing what.",
+      "applicability": "给出可操作判据：句子是否还能回答「谁对谁做了什么」。这是比「出现 -tion/-ity/-ism」更强的诊断标准，直接可用于中文（「X 的实现」是否隐去了实施者）。",
+      "confidence": "high",
+      "notes": "教学文本，非实证；但判据本身可检验。"
+    },
+    {
+      "id": "S2-002",
+      "claim": "存在一个可量化的名词化密度阈值：≥5% 的词是名词化即为「flabby」。",
+      "detail": "Writer's Diet 文本检测工具将名词化占比 ≥5% 判为「flabby」或「heart attack」。",
+      "category": "过度名词化",
+      "evidence_type": "工具规范",
+      "source_title": "Nominalizations（LSU 写作中心转载 Sword 原文）",
+      "source_author": "Helen Sword / Louisiana State University Writing Center",
+      "source_year": 2014,
+      "source_url": "https://www.lsu.edu/hss/english/files/university_writing_files/item51054.pdf",
+      "doi": null,
+      "quote": "A score of \"flabby\" or \"heart attack\" in the noun category indicates that 5 percent or more of your words are nominalizations.",
+      "applicability": "提供了第一个可计算的指标。但 5% 是英语经验阈值，中文无对应校准；中文「的」字结构 noun phrase 的计数方式完全不同。",
+      "confidence": "medium",
+      "notes": "阈值来自单一工具，无独立效度验证。不能直接移植到中文。"
+    },
+    {
+      "id": "S2-003",
+      "claim": "在学术汉语中，名词化是正常且必要的语篇资源，承担客观化、提高信息量、提升正式度三项功能。",
+      "detail": "基于大规模学术汉语平衡语料库，分析「N 的 V」结构。名词化使动作施事隐含，语义重心落在动作本身，从而客观化；将小句压缩为名词短语，提高词汇密度；并通过增加阅读难度制造距离感，提升正式度与权威性。软科学提取 181 个名词化动词，硬科学 146 个。",
+      "category": "合法名词化",
+      "evidence_type": "实证研究",
+      "source_title": "基于语料库的学术汉语名词化语法隐喻研究",
+      "source_author": "李加、文欣然",
+      "source_year": 2025,
+      "source_url": "https://doi.org/10.46451/ijclt.250701",
+      "doi": "10.46451/ijclt.250701",
+      "quote": "名词化语法隐喻 ... 将原本需要用小句表达的意义改用名词性短语来表达，从而减少了语篇中的词汇量和小句数量，增加了语篇的词汇密度和信息量。",
+      "applicability": "关键反证：不能把名词化本身当作 AI 特征。判据必须是「压缩后是否丢失了必要的施事、条件、过程差异」，而不是「是否出现名词化」。",
+      "confidence": "high",
+      "notes": "该文明确把「术语型名词化」排除在分析外，说明术语与修辞性名词化需分开处理。"
+    },
+    {
+      "id": "S2-004",
+      "claim": "学术写作的名词化与名词串在 50 年间大幅上升，且伴随缩写词爆炸。",
+      "detail": "对 1965–2015 学术论文的语料分析：名词化从基数增至 30201 例（+69.5%），名词-名词序列 14000 例（+21.8%），缩写词增至 3885 例（+570%）。作者指出这使文本对非圈内人越来越不透明，并引用 Billig：「动词是伟大的缺席者」。",
+      "category": "概念堆叠/术语膨胀",
+      "evidence_type": "实证研究",
+      "source_title": "Academic naming: Changing patterns of noun use in research writing",
+      "source_author": "（UEA 工作论文，作者信息待核）",
+      "source_year": 2022,
+      "source_url": "https://ueaeprints.uea.ac.uk/id/eprint/79533/1/Nominalisation_R2.pdf",
+      "doi": null,
+      "quote": "we found substantial increases in the raw numbers of nominalizations and noun noun sequences over the period with 30201 nominalizations and 14000 noun-noun sequences in 2015, increases of 69.5% and 21.8% respectively. We also observed a huge increase in acronyms ... with an increase of 570% to 3885 cases in the 2015 corpus.",
+      "applicability": "说明「名词化上升」是学术语体的长期趋势，不能归因于 AI。AI 可能加速而非首创。",
+      "confidence": "medium",
+      "notes": "工作论文，作者与发表状态未核实；百分比未按论文长度归一化，原文亦承认。"
+    },
+    {
+      "id": "S2-005",
+      "claim": "学生与新手常把名词化当作「给抽象事物贴标签」，而不是「压缩小句、推进信息」，因而形成概念堆叠。",
+      "detail": "对中国硕士生学位论文摘要的分析发现：跨范畴名物化名词词组与术语是建构抽象性、专业性、复杂性的主要词汇资源；但「少量压缩名物化」说明学生只把名物化当作指称抽象事物的独立词汇，缺乏「名物化是小句压缩与信息推进」的认识。前置修饰语以语篇衔接功能为主，缺少人际与概念功能。",
+      "category": "概念堆叠",
+      "evidence_type": "实证研究",
+      "source_title": "中国硕士生学术语篇中名词词组的使用特征分析",
+      "source_author": "（北京科技大学学报社科版，作者待核）",
+      "source_year": 2022,
+      "source_url": "http://bkds.ustb.edu.cn/article/id/49b9862b-11c2-43f4-9f17-d27c8df7f2a0",
+      "doi": null,
+      "quote": "少量压缩名物化的名词词组说明中国硕士生只是把名物化作为指称抽象事物的独立词汇,缺乏名物化是小句的压缩和推进信息发展的认识。",
+      "applicability": "把「过度名词化」与「概念堆叠」连接起来：堆叠 = 只贴标签不压缩信息。可用于 W02 的诊断规则。",
+      "confidence": "medium",
+      "notes": "摘要级证据，未见全文与样本量。"
+    },
+    {
+      "id": "S2-006",
+      "claim": "中文 283 万字对照语料中，「动词名词化」不具备区分 AI 与人类的能力（R=0.52）。",
+      "detail": "生成侧 0.003，人类侧 0.005，人类反而更高。",
+      "category": "过度名词化（反证）",
+      "evidence_type": "语料观察（未同行评议）",
+      "source_title": "lieflat-less-ai-tone",
+      "source_author": "larashero3-dotcom",
+      "source_year": 2026,
+      "source_url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+      "doi": null,
+      "quote": "动词名词化 | 生成 0.003 / 人类 0.005 | 0.52",
+      "applicability": "与 S1-008 同源。提示：把「过度名词化」当成 AI 特征是未经检验的假设，很可能只是学术写作通病。",
+      "confidence": "low",
+      "notes": "单一项目自测、算子口径不明（如何识别中文名词化动词），必须复现后才可用。"
+    },
+    {
+      "id": "S2-007",
+      "claim": "Orwell 的经典对照仍是判断「名词化是否掩盖了具体过程」的最佳教学范例。",
+      "detail": "传道书原文（race/battle/riches/time/chance）vs Orwell 的现代英语戏仿（considerations/conclusion/tendency/capacity/unpredictable），同一命题在名词化后信息量下降、可读性崩塌。",
+      "category": "过度名词化",
+      "evidence_type": "经典文本",
+      "source_title": "Politics and the English Language（经 Sword 转述）",
+      "source_author": "George Orwell",
+      "source_year": 1946,
+      "source_url": "https://www.helensword.com/podcast-transcripts/the-zombie-noun-walk",
+      "doi": null,
+      "quote": "Objective considerations of contemporary phenomena compel the conclusion that success or failure in competitive activities exhibits no tendency to be commensurate with innate capacity, but that a considerable element of the unpredictable must invariably be taken into account.",
+      "applicability": "可直接作为案例库 W02 的「原句」，配中文改写。注意：这是刻意构造的极端例，不宜当作常规判据。",
+      "confidence": "high",
+      "notes": "引文经 Sword 转写，原始出处为 Orwell 1946 随笔。"
+    }
+  ],
+  "gaps": [
+    "未找到「概念堆叠」「压缩判断」的英文学术对应术语与度量（候选：conceptual density、nominal density、lexical density），需要专门检索。",
+    "未找到中文「术语膨胀」的量化研究（如新术语引入速率、同义术语并存率）。",
+    "「政策工具箱」「三重底线」等词汇是否为成熟术语，未做词源与使用史核查。",
+    "中文名词化密度的可计算方法（「N 的 V」计数？「性/化/度/主义」后缀计数？）无统一标准。"
+  ],
+  "implications": [
+    "「过度名词化」应改写为「名词化是否掩盖了必要信息」，判据是施事/条件/过程是否丢失，不是后缀计数。",
+    "W02 的交付物应包含：合法名词化例（3 条，来自学术汉语语料）、过度名词化例（3 条）、改写前后对照。",
+    "会议把「名词化」当作 AI 特征，可能混淆了「学术文体通病」与「AI 特有倾向」，需要在案例库中显式标注这一点。"
+  ]
+}

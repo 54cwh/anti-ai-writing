@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "search_time": "2026-10-27",
+    "topic": "AI 写作的普遍问题：作者声音、主导权、认知代价与「看似正确」",
+    "scope": "认知卸载实证、作者身份与披露实验、修辞债务概念、自动化偏差案例",
+    "data_sources_summary": "Gerlich 2025（Societies，666 人混合方法）、Doshi & Hauser 2024（所有权惩罚）、Padmakumar & He 2024（用户文本未受影响）、AI & Society 2025「修辞债务」、Stack Overflow 禁用 AI 文本的公开事件。"
+  },
+  "items": [
+    {
+      "id": "B2-001",
+      "claim": "高频使用 AI 工具与批判性思维得分负相关，认知卸载是中介变量。",
+      "detail": "英国 666 人混合方法研究（问卷 + 深度访谈）。AI 使用频率与认知卸载 r=+0.72；AI 使用与批判性思维 r=−0.68；认知卸载与批判性思维 r=−0.75。中介模型：总效应 b=−0.42，经认知卸载的间接效应 b=−0.25，直接效应 b=−0.17（均显著）。年轻组 AI 依赖更高、批判性思维得分更低；受教育程度与批判性思维正相关，与 AI 使用无关。",
+      "category": "认知代价",
+      "evidence_type": "实证研究",
+      "source_title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
+      "source_author": "Michael Gerlich",
+      "source_year": 2025,
+      "source_url": "https://www.mdpi.com/2075-4698/15/1/6",
+      "doi": "10.3390/soc15010006",
+      "quote": "The findings revealed a significant negative correlation between frequent AI tool usage and critical thinking abilities, mediated by increased cognitive offloading.",
+      "applicability": "给「AI 写作的代价」提供了一个可引用的实证入口。但见 notes：这是横断面自评，不能证明因果方向。",
+      "confidence": "medium",
+      "notes": "横断面、自评量表、方便抽样；作者已发布 Table 4 更正（ANOVA 重复）。引用时必须说明「相关而非因果」。r 值偏高（0.7 级）在社会科学中异常，需谨慎。"
+    },
+    {
+      "id": "B2-002",
+      "claim": "读者会给使用 AI 的作者打「所有权折扣」，且大多数人要求披露。",
+      "detail": "Doshi & Hauser 在故事评估后向评审者披露作者是否获得 AI 灵感。评审者对接受 AI 灵感的作者施加至少 25% 的所有权惩罚（相对纯人类写作）；多数评审认为应补偿被训练内容的创作者，并认为使用 AI 应作为发表的一部分予以披露；但多数人仍认为用 AI 写故事是伦理的、仍属「创作行为」。",
+      "category": "作者身份/披露",
+      "evidence_type": "实证研究",
+      "source_title": "Generative AI enhances individual creativity but reduces the collective diversity of novel content",
+      "source_author": "Anil R. Doshi, Oliver P. Hauser",
+      "source_year": 2024,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11244532/",
+      "doi": "10.1126/sciadv.adn5290",
+      "quote": "We find that evaluators imposed an ownership penalty of at least 25% on writers who received generative AI ideas, relative stories written only by humans.",
+      "applicability": "说明「AI 味」问题不只是文本质量问题，还有归属与信任问题。项目若面向发表/提交场景，披露策略必须纳入。",
+      "confidence": "high",
+      "notes": "创意写作场景，未必外推到技术文档；25% 是实验设定下的估计。"
+    },
+    {
+      "id": "B2-003",
+      "claim": "共写时，被同质化的是模型贡献的部分，用户自己写的部分基本不变。",
+      "detail": "Padmakumar & He 发现：InstructGPT 贡献约 40% 的要点，多样性下降主要来自模型文本；用户贡献文本与无辅助时无显著差异。作者据此认为「抑制用户声音」的风险在单次交互中有限。",
+      "category": "作者声音",
+      "evidence_type": "实证研究",
+      "source_title": "Does Writing with Language Models Reduce Content Diversity?",
+      "source_author": "Vishakh Padmakumar, He He",
+      "source_year": 2024,
+      "source_url": "https://arxiv.org/abs/2309.05196",
+      "doi": null,
+      "quote": "this effect is mainly attributable to InstructGPT contributing less diverse text to co-written essays. In contrast, the user-contributed text remains unaffected by model collaboration.",
+      "applicability": "一个乐观但有条件的结论：只要人保留主导写作，声音不会被替代；风险来自「让模型写正文」。这为「AI 只做草稿/结构」提供了实证支持。",
+      "confidence": "high",
+      "notes": "单次交互；长期反复使用是否改变用户自身表达，未测。"
+    },
+    {
+      "id": "B2-004",
+      "claim": "最危险的 AI 文本不是明显垃圾，而是「看似正确却不合语境」——即修辞债务。",
+      "detail": "该文区分两类问题：一类是明显 slop（一看就假）；另一类是「uncanny valley of seemingly authoritative text」——没有事实错误、没有幻觉，但内容与风格选择不适合当下的语境、目的与读者，能骗过新手，也能让匆忙的专家漏过。作者举 Stack Overflow 2022 年 12 月禁用 AI 生成文本为例：原因是「看起来可信、专业，但常常不是」。Stack Overflow 后来改为 AI 建议必须经人工审核才公开。",
+      "category": "语境失配",
+      "evidence_type": "理论文章",
+      "source_title": "Large language models and the problem of rhetorical debt",
+      "source_author": null,
+      "source_year": 2025,
+      "source_url": "https://doi.org/10.1007/s00146-025-02403-w",
+      "doi": "10.1007/s00146-025-02403-w",
+      "quote": "It arises when AI-generated text seems correct and appropriate but is not—a sort of uncanny valley of seemingly authoritative text—which can fool novices or experts-in-training, and escape the attention of experts who, in haste, fail to notice or point out its flaws.",
+      "applicability": "这是对项目最有用的概念：判据不是「有没有错」，而是「是否合语境」。也解释了为什么禁用词表无效——问题在适配，不在词。",
+      "confidence": "medium",
+      "notes": "AI & Society（Springer）；作者名未取得（抓取被反爬拦截），引用时需补。"
+    },
+    {
+      "id": "B2-005",
+      "claim": "中文语境下，「AI 味」的部分成因是使用者放弃创作主导权，而非模型能力不足。",
+      "detail": "CASS 文章指出：部分情况下 AI 味并非完全源于技术局限，也可能是使用者未精准传递创作需求，或过度依赖机器而放弃自身创作主导权。建议 AI 内容作为基础素材而非最终成品，作者需保持二次创作能力。",
+      "category": "主导权",
+      "evidence_type": "学术评论",
+      "source_title": "智能写作的「AI味」问题",
+      "source_author": "中国社会科学院语言研究所",
+      "source_year": 2026,
+      "source_url": "http://ling.cass.cn/news/xuejie/202607/t20260703_6057568.html",
+      "doi": null,
+      "quote": "部分情况下，「AI味」的出现并非完全源于技术局限，也可能是因为使用者未能精准传递创作需求，或是过度依赖机器而放弃了自身的创作主导权。",
+      "applicability": "把责任从「模型」部分转移到「使用方式」，这意味着改善路径可以是流程性的（谁来定主张、谁来改），而不只是提示词。",
+      "confidence": "high",
+      "notes": "评论性判断，无实证。"
+    },
+    {
+      "id": "B2-006",
+      "claim": "自动化偏差是「看似正确」得以扩散的认知机制。",
+      "detail": "修辞债务一文引 Skitka et al.（1999）：人们倾向于过度信任机器建议。ChatGPT 发布后数周内，程序员因信任其代码建议而犯错，原因是要么是赶时间的专家，要么是被流畅输出说服的新手。",
+      "category": "认知机制",
+      "evidence_type": "理论文章（转引）",
+      "source_title": "同上（rhetorical debt）",
+      "source_author": null,
+      "source_year": 2025,
+      "source_url": "https://doi.org/10.1007/s00146-025-02403-w",
+      "doi": "10.1007/s00146-025-02403-w",
+      "quote": "They made such mistakes because they were either experts in a hurry ... or novices persuaded by the output's seeming fluency.",
+      "applicability": "解释了为什么「读起来顺」是风险而不是优点。可用于说明为什么需要独立于流畅度的核查步骤。",
+      "confidence": "medium",
+      "notes": "Skitka 1999 原文未核，为转引。"
+    }
+  ],
+  "gaps": [
+    "未找到「长期使用 AI 写作是否导致个人写作能力下降」的纵向研究。",
+    "未找到中文场景下「作者声音被压平」的实证（对标 Padmakumar）。",
+    "「修辞债务」概念尚无操作化测量方法。",
+    "未检索 AI 写作与学术/职业诚信披露规范的交叉研究。"
+  ],
+  "implications": [
+    "「AI 味」的伦理维度（归属、披露、主导权）与文本维度同等重要，项目不能只做文本清洗。",
+    "最有效的结构性防线是分工：人定主张与判断，AI 只做草稿与结构（B2-003 支持）。",
+    "质量判据应从「有没有错」升级为「是否合语境」，这直接否定禁用词表路线。"
+  ]
+}

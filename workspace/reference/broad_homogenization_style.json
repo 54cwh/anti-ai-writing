@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "search_time": "2026-10-27",
+    "topic": "AI 写作的普遍问题（非论文特化）：同质化、文体扁平、AI slop",
+    "scope": "实证实验（写作多样性）、社区定义（AI slop）、中文语文学界对「AI 味」的分析、反方观点",
+    "data_sources_summary": "Science Advances 创意写作实验、ICLR 2024 共写多样性实验、Wikipedia AI slop 条目、中国社会科学院语言研究所「AI味」专文、联合早报反方评论、中文语料对照项目。"
+  },
+  "items": [
+    {
+      "id": "B1-001",
+      "claim": "AI 让个体写得更好，但让所有人写得更像——个体收益与集体多样性构成社会困境。",
+      "detail": "预注册两阶段在线实验，293 名写作者随机分入「纯人类 / 1 个 AI 灵感 / 5 个 AI 灵感」三组，写 8 句短篇故事，第三方评估。有 AI 灵感时故事被评更有创意、写得更好、更有趣（5 个灵感组新颖性 +8.1%、有用性 +9.0%），低创造力写作者获益最大（可达 +10.7%）。但 AI 辅助的故事彼此更相似：与同条件其他故事平均嵌入的余弦相似度显著上升。",
+      "category": "同质化",
+      "evidence_type": "实证研究",
+      "source_title": "Generative AI enhances individual creativity but reduces the collective diversity of novel content",
+      "source_author": "Anil R. Doshi, Oliver P. Hauser",
+      "source_year": 2024,
+      "source_url": "https://www.science.org/doi/10.1126/sciadv.adn5290",
+      "doi": "10.1126/sciadv.adn5290",
+      "quote": "access to generative AI ideas causes stories to be evaluated as more creative, better written, and more enjoyable, especially among less creative writers. However, generative AI–enabled stories are more similar to each other than stories by humans alone.",
+      "applicability": "这是「AI 味」最重要的机制解释：不是 AI 写得差，而是所有人在同一分布上取众数。项目若只做「删掉 AI 词」，无法解决同质化——同质化在语义层，不在词表层。",
+      "confidence": "high",
+      "notes": "样本为 8 句微小说，任务受限，作者自陈外推有限。"
+    },
+    {
+      "id": "B1-002",
+      "claim": "多样性下降可归因于 RLHF，而不是「用了大模型」本身。",
+      "detail": "控制实验：用户写议论文，分 GPT-3（基座）、InstructGPT（人类反馈微调）、无辅助三组。InstructGPT 组文本多样性显著下降（词汇与要点都更少），GPT-3 组无显著变化。模型贡献了约 40% 的要点，且 InstructGPT 的要点本身更不多样；用户自己写的部分未受影响。",
+      "category": "同质化/机制",
+      "evidence_type": "实证研究",
+      "source_title": "Does Writing with Language Models Reduce Content Diversity?",
+      "source_author": "Vishakh Padmakumar, He He",
+      "source_year": 2024,
+      "source_url": "https://arxiv.org/abs/2309.05196",
+      "doi": null,
+      "quote": "writing with InstructGPT (but not the GPT3) results in a statistically significant reduction in diversity. ... the recent improvement in generation quality from adapting models to human feedback might come at the cost of more homogeneous and less diverse content.",
+      "applicability": "关键：同质化是「对齐」的副产品，不是模型能力不足。因此越「好用」的模型，越可能压平差异。对标点/词汇的表面清洗无效。",
+      "confidence": "high",
+      "notes": "ICLR 2024；实验为单次交互，长期反复交互的影响未知。"
+    },
+    {
+      "id": "B1-003",
+      "claim": "「AI slop」有三个可辨识的原型属性：表面胜任、投入不对称、可批量生产。",
+      "detail": "Kommers 等（2026 年 1 月）认为 slop 无法精确定义边界，但给出三个原型属性：superficial competence（看起来专业）、asymmetric effort（生产者投入远低于读者以为的）、mass producibility（可无限复制）。slop 与「假信息」不同：它往往没有明确错误，只是空洞。",
+      "category": "AI slop",
+      "evidence_type": "二手转述（维基百科引学术论文）",
+      "source_title": "AI slop（Wikipedia）",
+      "source_author": "Wikipedia contributors",
+      "source_year": 2026,
+      "source_url": "https://en.wikipedia.org/wiki/AI_slop",
+      "doi": null,
+      "quote": "Kommers et al. identify three \"prototypical properties\" that characterise AI slop: superficial competence, asymmetric effort and mass producibility.",
+      "applicability": "给「AI 味」一个不依赖词汇表的社会学定义：投入不对称。这对项目很重要——判断标准可以是「读者以为的投入 vs 实际投入」。",
+      "confidence": "medium",
+      "notes": "转引自维基百科，Kommers 原文未核。slop 被 Merriam-Webster 与 ADS 选为 2025 年度词。"
+    },
+    {
+      "id": "B1-004",
+      "claim": "中文「AI 味」有可客观描述的词汇、句式、结构三层特征。",
+      "detail": "中国社会科学院语言研究所专文列举：词汇层偏好高频中性「安全词汇」，回避方言、俚语、隐喻与强情感词，导致高度同质化；句式层「过度流畅」，句长过于均衡，缺少短句的铿锵与长句的绵密；结构层高度模板化，高频使用「首先、其次、总之」「总的来说」「值得注意的是」作段落过渡，用「由此可见」「不难看出」「具有重要意义」收尾，且末尾不知收束、反复复述。",
+      "category": "文体扁平",
+      "evidence_type": "学术评论（语言学）",
+      "source_title": "智能写作的「AI味」问题",
+      "source_author": "中国社会科学院语言研究所",
+      "source_year": 2026,
+      "source_url": "http://ling.cass.cn/news/xuejie/202607/t20260703_6057568.html",
+      "doi": null,
+      "quote": "这些由AI生成的文章往往呈现出工整而空泛、精美却无趣、正确但空洞等特征 ... 智能写作的文章在词汇层面显得高度同质化 ... 其句子长度往往过于均衡 ... 高频使用「首先、其次、总之」「总的来说」「值得注意的是」等衔接词作为段落过渡的固定套路。",
+      "applicability": "中文侧最权威的一份描述性分析，且明确指出成因是「对齐导致的安全枷锁」，与 B1-002 的 RLHF 解释互相印证。",
+      "confidence": "high",
+      "notes": "学术评论而非实证；无频率数据。作者署名未在页面显示。"
+    },
+    {
+      "id": "B1-005",
+      "claim": "反方观点：所谓「AI 文风」其实是学术/公文体的默认值，原因是用户没交代文体。",
+      "detail": "黄龙翔指出，《经济学人》归纳的特征（正式词汇、长句、层层铺陈）本就是几十年学术论文的写法。LLM 的默认任务是「生成下一段最合理、稳妥、严谨的文字」，当提示未指定体裁、语气、对象时，自然回落到论述性文本。学术/法律/政策文体之所以啰嗦限定，是为了减少歧义，不是故作高深。",
+      "category": "反方/归因",
+      "evidence_type": "评论",
+      "source_title": "「AI文风」——跟谁学的？",
+      "source_author": "黄龙翔（联合早报）",
+      "source_year": 2026,
+      "source_url": "https://www.zaobao.com.sg/forum/views/story20260828-9591292",
+      "doi": null,
+      "quote": "它所归纳的，与其说是一种崭新的「AI文风」，不如说是一种原本属于少数受过专业训练的人所掌握的表达策略，被大型语言模型当成默认答案。",
+      "applicability": "重要的归因警告：项目若把「正式、长句、限定多」当作 AI 特征，会误伤学术与公文写作本身。判据必须回到「是否与目标读者/用途匹配」。",
+      "confidence": "medium",
+      "notes": "评论文章，非实证；但其「默认文体」假设可用实验检验（同一提示加/不加文体约束）。"
+    },
+    {
+      "id": "B1-006",
+      "claim": "中文 AI 味的很大一部分是「翻译腔」——骨架是英文、词是中文。",
+      "detail": "该文归纳四类可操作痕迹：(1) 用物理动作动词描述思考（接住、击穿、不崩、撑不住，来自 catch/break）；(2) 形容词先下判断再接冒号（「更锋利的重构：」「原因很简单：」）；(3) 抽象名词作主语、形容词收尾的骨架；(4) 有稳定中译却保留英文词（context、state、cache、claim）。改法：不在原句上修补，先理清意思再用中文重说一遍。",
+      "category": "翻译腔",
+      "evidence_type": "个人经验/博客",
+      "source_title": "写作中的AI味是哪儿来的",
+      "source_author": "yage.ai",
+      "source_year": 2026,
+      "source_url": "https://yage.ai/share/ai-chinese-translationese-20260418.html",
+      "doi": null,
+      "quote": "这股 AI 味，本质上是骨架为英文的中文句子。每一个字都是中文，每一处语法都合规，但句子的骨架、主谓搭配、动词选择、段落节奏，全是英文的。",
+      "applicability": "提供了四条可写成规则的具体痕迹，且都是「可改写」的，不是「禁用词」。但四条均未经频率检验。",
+      "confidence": "low",
+      "notes": "个人博客，无数据；作者自述案例来自与 AI 的真实对话。"
+    },
+    {
+      "id": "B1-007",
+      "claim": "中文对照语料检验：26 项流行特征只有 11 项成立，最强的是「段首零回指评论」。",
+      "detail": "629 篇、282.7 万字、95551 句。通过检验的集中于篇章与结构层：对举结构 3.4 倍、破折号 3.0 倍、冒号滥用 3.8/9.4 倍、序数词作小标题 3.1 倍、段首零回指评论 4.4 倍。未通过的有：句长均匀度 0.87、段长均匀度 0.94、比喻 0.42、正文设问 0.05、句内同构排比 0.61、动词名词化 0.52。",
+      "category": "同质化/反证",
+      "evidence_type": "语料观察（未同行评议）",
+      "source_title": "lieflat-less-ai-tone",
+      "source_author": "larashero3-dotcom",
+      "source_year": 2026,
+      "source_url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+      "doi": null,
+      "quote": "11 项特征通过检验，有明显的区分度，其中区分力最强者为段首零回指评论（4.4 倍）。",
+      "applicability": "目前唯一一份中文大样本频率对照。它把「AI 味」从语感变成可测指标，且指出方向：结构层比词汇层更稳。",
+      "confidence": "low",
+      "notes": "未同行评议、语料不可核验、作者自陈六次算子缺陷。必须复现。"
+    }
+  ],
+  "gaps": [
+    "未找到中文写作场景下「AI 辅助导致多样性下降」的实验（对标 Doshi & Hauser 的中文版）。",
+    "未找到「AI slop」在中文语境下的定义研究。",
+    "「句式过于均衡」在中文对照语料中未通过检验（0.87），与 CASS 文章的判断冲突，需要裁决。",
+    "未量化「翻译腔」四类痕迹的中文频率。"
+  ],
+  "implications": [
+    "同质化的根因在语义分布（RLHF 取众数），不在词表；只清洗词汇无法解决。",
+    "「AI 味」应拆成三层：词汇层（衰减快）、句式层（中等）、结构层（最稳）。资源应投在结构层。",
+    "必须区分「AI 特有」与「学术/公文文体本身」——这部分约占全部指控的一半。"
+  ]
+}
