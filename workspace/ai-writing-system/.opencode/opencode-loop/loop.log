@@ -1,0 +1,6 @@
+{"time":"2026-11-03T11:44:56.845Z","line":"v2-native-ready","host":"2.2.5"}
+{"time":"2026-11-03T11:47:33.275Z","line":"v2-native-paused","sessionID":"ses_e5ec49a3cffeCR4dapQ1Ke57lu","reason":"session.execution.interrupted"}
+{"time":"2026-11-03T11:49:36.016Z","line":"v2-native-paused","sessionID":"ses_e5ec49a3cffeCR4dapQ1Ke57lu","reason":"session.execution.interrupted"}
+{"time":"2026-11-03T12:08:03.316Z","line":"v2-native-paused","sessionID":"ses_e5ec49a3cffeCR4dapQ1Ke57lu","reason":"session.execution.interrupted"}
+{"time":"2026-11-03T12:10:22.929Z","line":"v2-native-paused","sessionID":"ses_e5ec49a3cffeCR4dapQ1Ke57lu","reason":"session.execution.interrupted"}
+{"time":"2026-11-03T12:11:51.263Z","line":"v2-native-paused","sessionID":"ses_e5ec49a3cffeCR4dapQ1Ke57lu","reason":"session.execution.interrupted"}
